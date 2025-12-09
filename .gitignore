@@ -1,0 +1,25 @@
+# Node dependency directory (do NOT commit)
+node_modules/
+
+# Dependency lock files from other package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment + secrets (never commit!)
+.env
+.env.local
+.env.*.local
+
+# Build / dist artifacts
+dist/
+build/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.vscode
+
